@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <title>Case Study</title>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+          <link rel="stylesheet" href="style.css">     
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+          <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+     </head>
+     <body style="background-color: black; color: white;">
+          
+          <center>
+               <h3 class="btn btn-primary heading">Case Study App
+                
+                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+                     We are using Mobilenet and Google Lens as a Model  
+                     <br>
+                       <div class="heading_div2">
+                       Mobilenet model is trained on <br> <b>1.3 million image</b>
+                       </div>
+                     </div>
+                    </h3>
+               <center>
+                    <div class="col">
+                              
+                              
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br> <br>
+                    <hr>
+                    <div class="col">
+                         <div class="col">
+                              <p class="btn btn-danger">Google Lens</p>
+                              <hr>
+                              <p class="btn btn-success result_para_tag">Object:
+                                   <span id="obj_name_g"></span>
+                              </p>
+                              <p class="btn btn-success result_para_tag">Accuracy
+                                   <span id="obj_acc_g"></span>
+                              </p>
+                         </div>
+                         <br><br>
+                         <div class="col">
+                              <p class="btn btn-danger">Mobilenet</p>
+                              <hr>
+                              <p class="btn btn-success result_para_tag">Object:
+                                   <span id="obj_name_m"></span>
+                              </p>
+                              <p class="btn btn-success result_para_tag">Accuracy
+                                   <span id="obj_acc_m"></span>
+                              </p>
+                         </div>
+                    </div>
+               </center>
+          </center>
+          <footer >
+               © Sushrut
+          </footer>
+          <script src="main.js"></script>
+                              
+     </body>
+</html>
